@@ -14,8 +14,8 @@
 
 #define MIN_LIGHT_THRESHOLD 20 
 
-const char WiFiSSID[] = "fingerdoggy";
-const char WiFiPSK[] = "nrCtpEwYsL115unx";
+const char WiFiSSID[] = "-";
+const char WiFiPSK[] = "-";
 IPAddress MQTTServerIP = IPAddress(192, 168, 1, 31);
 String SensorName = "brewroom_atmos";
 String PubTopic = "sensor_data";
